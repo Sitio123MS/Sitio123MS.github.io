@@ -98,19 +98,20 @@
 						<div class="img-thumbnail" img center align="center">
 							<div id="contactform">
 							<h1 align="center">Datos del cliente</h1>
-							<form action="prueba.php" method="post">
+							<form class="form" action="https://formspree.io/f/mdojkoap"
+							method="POST">
 							<label for="nombre">Nombre Completo:</label>
-							<input type="text" name="nombre" placeholder="nombre completo" required autofocus/><br>
+							<input type="text" class="form_input" placeholder="Nombre" name="name"><br>
 							<label for="email"><br>Correo Electronico:</label>
-							<input type="email" name="email" placeholder="nombre@email.com" required/><br>
+							<input type="email" class="form_input" placeholder="nombre@email.com" name="_replyto" required/><br>
 							<br>
 							<label for="numero">Telefono:</label>
-							<input type="numero" name="numero" placeholder="Telefono" required autofocus/><br>
+							<input type="numero" class="form_input" name="Numero" placeholder="Telefono" required autofocus/><br>
 							<br>
 							<label for="asunto">Comentario:<br></label>
-							<textarea id="asunto" name="asunto" placeholder="Deja tus comentarios" required></textarea><br>
+							<textarea class="form_input form_input--message" placeholder="Deja tus comentarios" name="Mensaje" required></textarea><br>
 								<br>
-							<button class="submit" type="submit">Enviar Comentario</button>
+							<button type="submit" value="Enviar" class="input_cta">Enviar Comentario</button>
 								</form>
 							
 							
