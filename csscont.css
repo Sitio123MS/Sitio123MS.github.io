@@ -2,10 +2,10 @@
 /* CSS Document */
 div.col-md-6{
 	background-color: aqua;
-	width: 200px;
-	padding: 10px;
-	
-	
+	width: 50px;
+	padding: 20px;
+	padding-top:15px;
+	height: 395px;
 
 	
 }
